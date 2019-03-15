@@ -3,9 +3,11 @@ import React from 'react';
 const person = (props) => {
     return (
         <div className='RedBack'>
-            <p>created it!</p>
+            <p>Seven Dead Signs</p>
 
-            <h4>It really work pretty well =D, i have {props.dollars} dollars in my pocket.</h4>
+            <h4>{props.name} have {props.power} of power</h4>
+
+            <p>Secret weapon: {props.children}</p>
         </div>
     );
 
